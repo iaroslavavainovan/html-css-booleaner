@@ -1,6 +1,18 @@
+/* #region header*/
 #site_header
 {
-    background-color: rgb(92, 92, 255)
-    background-image: url("../img/pattern.png");
-    background-size: 280px;
+    background-color: rgb(92, 92, 255);
+    background-image: url('../img/pattern.png');
+    background-size: 270px;
 }
+
+.logo_img
+{padding: 16px 8px;
+    /*padding-top: 1rem (1rem=16px);
+    padding-bottom: 0.25rem (0.25rem=4px);
+    padding-left: o.25rem(0.25rem=4px)*/
+}
+/* #endregion header */
+
+
+
