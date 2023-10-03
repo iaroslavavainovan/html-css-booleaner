@@ -12,34 +12,46 @@
             <img class="logo_img" width="130" src="./img/logo.svg" alt="The Booleaner">
         </div>
     </header>
-    <main>
-        <h1> Iinternet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-        <h4>Scritto da The Booleaner</h4>
-        <h5>il 10/10/2020</h5>
-        <figure>
-            <img src="./img/tim-1.jpg"><img src="./img/tim-2.jpg">
-            <figcaption>
-                <p>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</p>
-                <p>2nd Photo: Wikimedia, by Paul Clarke</p>
-            </figcaption>
-        </figure>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores aperiam quisquam nam suscipit consectetur impedit provident iure sint consequatur numquam accusamus, dolore aspernatur amet esse assumenda eaque nulla doloribus possimus at, eos eius dolorum praesentium. Quidem perferendis repudiandae nobis eaque ipsum eum dignissimos, odio molestias ut veritatis velit aliquam, deleniti quisquam quod sapiente pariatur aperiam accusamus optio dolores facere aut. Non ab ipsa qui dolorem, excepturi, aut quod laudantium molestiae voluptatum animi ullam asperiores! Incidunt fuga deleniti vero cum modi!           
+    <main id="site_main">
+        <article>
+            <header class="article_header"><!--titolo giornale, autore con collegamento e data-->
+                <h1> Iinternet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+                <div class="meta">
+                    <div class="author">
+                        Scritto da <a class="author_link" href="#">The Booleaner</a>
+                    </div>
+                    <div class="date">
+                        il 10/10/2020
+                    </div>
+                </div>
+            </header>
+            <div class="content">
+                <div class="images"><!--immagini-->
+                    <img src="./img/tim-1.jpg">
+                    <img src="./img/tim-2.jpg">
+                </div>
+                <div class="caption"><!--descrizione immagini-->
+                    <div>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</div>
+                    <div>2nd Photo: Wikimedia, by Paul Clarke</div>
+                </div>
+            </div>
+        <p class="py_1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores aperiam quisquam nam suscipit consectetur impedit provident iure sint consequatur numquam accusamus, dolore aspernatur amet esse <mark>assumenda eaque nulla doloribus possimus at, eos eius dolorum praesentium.</mark> Quidem perferendis repudiandae nobis eaque ipsum eum dignissimos, odio molestias ut veritatis velit aliquam, deleniti quisquam quod sapiente pariatur aperiam accusamus optio dolores facere aut. Non ab ipsa qui dolorem, excepturi, aut quod laudantium molestiae voluptatum animi ullam asperiores! Incidunt fuga deleniti vero cum modi!           
         </p>
-        <ul>
+        <ul class="pl_1">
             <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus quia reiciendis. Laboriosam sed alias numquam est cupiditate sint ea.</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eos, odio iusto eius voluptatum veritatis?</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero hic maiores aperiam consequatur id architecto, omnis nobis aut commodi quaerat!</li>
         </ul>
-        <table>
-            <thead>
+        <table class="pt_1">
+            <thead class="text_left bg_primary">
                 <tr>
                     <th>Lorem, ipsum dolor.</th>
                     <th>Lorem, ipsum dolor.</th>
-                    <th>Lorem, ipsum dolor.</th>
+                    <th class="w_50">Lorem, ipsum dolor.</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="bg_primary_soft">
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempora vitae cum quia voluptate quod?</td>
@@ -49,20 +61,24 @@
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempora vitae cum quia voluptate quod?</td>
                 </tr>
-                <tr>
+                <tr class="bg_primary_soft">
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempora vitae cum quia voluptate quod?</td>
                 </tr>
             </tbody>
         </table>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eveniet odit saepe dolorum fugiat deleniti, illum expedita blanditiis, consequuntur cupiditate magnam hic amet molestiae eligendi harum. Molestiae unde dolore voluptatem dolorum officiis enim voluptate eos magnam obcaecati distinctio, odio nobis placeat optio eveniet aperiam quasi porro quia ex corrupti? Asperiores dignissimos modi officiis aut natus rerum voluptate vitae eaque pariatur!</p>
-        <div>
-            <h4>Potrebbero interessarti</h4>
-            <img src="./img/monitor.jpg"><br>
-            <img src="./img/graph.jpg">
-        </div>
+        <p class="py_2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas exercitationem quo eligendi at perspiciatis aut vel expedita atque recusandae quod? Iusto cum, quas praesentium quos adipisci porro. Nisi, eaque illum perferendis labore suscipit fugiat explicabo excepturi porro tempore autem unde hic a harum aut esse incidunt nesciunt veritatis ratione blanditiis cum quo deserunt eligendi laborum! <mark>Incidunt dolor animi eum esse deleniti error nam et iusto</mark> , deserunt consequuntur dicta quisquam.Officia expedita nisi voluptate dolorum eos non odit, vero quidem ratione!</p>
+        </article>
+        <section class="related_articles">
+            <h3>Potrebbero interessarti</h3>
+            <div id="monitor" class="related_article">Lorem, ipsum dolor.</div>
+            <div id="graph" class="related_article">Lorem, ipsum dolor.</div>
+        </section>
     </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
