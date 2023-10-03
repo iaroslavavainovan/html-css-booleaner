@@ -109,7 +109,7 @@ table
 /* #region main*/
 main
 {
-    
+    width: 80%; /*restringe il main in modo centrato*/
     margin: auto;
 }
 
