@@ -124,6 +124,11 @@ main
     color: var(--bool-secondary);
 }
 
+.content
+{
+    margin: 1rem;
+}
+
 .date
 {
     font-size: 0.8rem;
