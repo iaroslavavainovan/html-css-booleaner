@@ -1,0 +1,164 @@
+/* #region common*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*impostazione pagina, regola di reset per togliere le impostazioni di default*/
+}
+
+:root
+{
+    --bool-white: #ffffff;
+    --bool-dark: #010001;
+    --bool-grey: rgba(128,128,129,1);
+    --bool-primary: rgba(77,160,254,1);
+    --bool-primary-soft: rgba(178,231,243,1);
+    --bool-secondary: rgba(52,180,232,1);
+    --bool-default-font-size: 18px;
+    /*root è un selettore che permette di assegnare colori che verranno poi consifliati digitando
+    color: var(--bool-grey<- suggerimento)*/
+}
+
+h1
+{
+    font-size: 2.2rem;
+    /*impostazione dimensione h1, 16px=1rem*/
+}
+
+h3
+{
+    color: var(--bool-grey)
+    /*impostazione colore h3*/
+}
+
+table
+{
+    border-spacing: 0;
+    /*impostazione bordi tabella*/
+}
+
+/* #endregion common*/
+
+/* #region utility*/
+.py_1
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.py_2
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.pl_1
+{
+    padding-left: 1rem;
+}
+
+.pt_1
+{
+    padding-top: 1rem;
+}
+
+.w_50
+{
+    width: 50%;
+}
+
+.text_left
+{
+    text-align: left;
+}
+
+.bg_primary /*utilizzato per sfondo e colore intestazione tabella*/
+{
+    background-color: var(--bool-primary);
+    color: var(--bool-white);
+}
+
+.bg_primary_soft /*utilizzato per sfondo corpo tabella*/
+{
+    background-color: var(--bool-primary-soft);
+}
+
+
+
+/* #endregion utility*/
+
+/* #region header*/
+#site_header
+{
+    background-color: var(--bool-primary);
+    background-image: url('../img/pattern.png');
+    background-size: 270px;
+}
+
+.logo_img
+{padding: 1rem 0.5rem;
+    /*(1rem=16px)
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.25rem
+    spazio tra l'immagine e l'elemento che la contiene in questo caso site_header*/
+}
+/* #endregion header */
+
+/* #region main*/
+
+.meta
+{
+    color: var(--bool-grey)
+}
+
+.author_link
+{
+    text-decoration: none; /*toglie sottolineatura del link che appare di default*/
+    color: var(--bool-secondary);
+}
+
+.date
+{
+    font-size: 0.8rem;
+}
+
+.caption
+{
+    font-size: 0.8rem;
+}
+
+#monitor
+{
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph
+{
+    background-image: url(../img/graph.jpg);
+}
+
+.related_article
+{
+    width: 240px;
+    height: 240px;
+    color: var(--bool-white);
+    padding: 0.5rem;
+    background-repeat: no-repeat;
+
+}
+
+
+/* #endregion main*/
+
+/* #region footer*/
+.sources
+{
+    text-decoration: none; /*toglie sottolineatura del link che appare di default*/
+    color: var(--bool-grey);
+    text-align: right;
+}
+
+/* #endregion footer*/
+
