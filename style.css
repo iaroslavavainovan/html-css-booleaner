@@ -158,7 +158,12 @@ main
 /* #endregion main*/
 
 /* #region footer*/
-
+.sources
+{
+    text-decoration: none; /*toglie sottolineatura del link che appare di default*/
+    color: var(--bool-grey);
+    text-align: right;
+}
 
 /* #endregion footer*/
 
