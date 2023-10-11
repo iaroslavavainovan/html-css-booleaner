@@ -92,7 +92,7 @@ table
 #site_header
 {
     background-color: var(--bool-primary);
-    background-image: url('../img/pattern.png');
+    background-image: url('./img/pattern.png');
     background-size: 270px;
 }
 
@@ -107,6 +107,10 @@ table
 /* #endregion header */
 
 /* #region main*/
+main
+{
+    margin: auto;
+}
 
 .meta
 {
@@ -131,12 +135,12 @@ table
 
 #monitor
 {
-    background-image: url(../img/monitor.jpg);
+    background-image: url(./img/monitor.jpg);
 }
 
 #graph
 {
-    background-image: url(../img/graph.jpg);
+    background-image: url(./img/graph.jpg);
 }
 
 .related_article
@@ -153,12 +157,20 @@ table
 /* #endregion main*/
 
 /* #region footer*/
-.sources
+footer
+{
+    width: 90%; /*attributo obbligatorio per allineare il footer,
+    senza dare una misura al contenitore non sipuò allineare il testo*/   
+    margin: auto; 
+}
+
+.info
+{
+    text-align: right; /*per questo attributo necessario un div*/    
+}
+
+.source_link
 {
     text-decoration: none; /*toglie sottolineatura del link che appare di default*/
     color: var(--bool-grey);
-    text-align: right;
 }
-
-/* #endregion footer*/
-
