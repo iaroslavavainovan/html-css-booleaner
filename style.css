@@ -160,20 +160,21 @@ main
 /* #region footer*/
 footer
 {
-    width: 90%; /*attributo obbligatorio per allineare il footer,
+    width: 100%; /*attributo obbligatorio per allineare il footer,
     senza dare una misura al contenitore non sipuò allineare il testo*/   
     margin: auto; 
 }
 
 .info
 {
-    text-align: right; /*per questo attributo necessario un div*/    
+    text-align: right; /*per questo attributo necessario un div*/   
+    background-color: var(--bool-primary); 
 }
 
 .source_link
 {
     text-decoration: none; /*toglie sottolineatura del link che appare di default*/
-    color: var(--bool-grey);
+    color: var(--bool-white);
 }
 
 /* #endregion footer*/
