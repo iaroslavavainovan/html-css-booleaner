@@ -1,4 +1,6 @@
-/* #region common*/
+/********************
+#region common
+********************/
 *
 {
     margin: 0;
@@ -15,6 +17,7 @@
     --bool-primary: rgba(77,160,254,1);
     --bool-primary-soft: rgba(178,231,243,1);
     --bool-secondary: rgba(52,180,232,1);
+    --bool-final: rgb(6, 57, 128);
     --bool-default-font-size: 18px;
     /*root è un selettore che permette di assegnare colori che verranno poi consifliati digitando
     color: var(--bool-grey<- suggerimento)*/
@@ -37,10 +40,13 @@ table
     border-spacing: 0;
     /*impostazione bordi tabella*/
 }
+/********************
+#endregion common
+********************/
 
-/* #endregion common*/
-
-/* #region utility*/
+/********************
+#region utility
+********************/
 .py_1
 {
     padding-top: 1rem;
@@ -83,12 +89,13 @@ table
 {
     background-color: var(--bool-primary-soft);
 }
+/********************
+#endregion utility
+********************/
 
-
-
-/* #endregion utility*/
-
-/* #region header*/
+/********************
+#region header
+********************/
 #site_header
 {
     background-color: var(--bool-primary);
@@ -153,11 +160,13 @@ main
     background-repeat: no-repeat;
 
 }
+/********************
+#endregion main
+********************/
 
-
-/* #endregion main*/
-
-/* #region footer*/
+/********************
+#region footer
+********************/
 footer
 {
     width: 100%; /*attributo obbligatorio per allineare il footer,
@@ -167,15 +176,19 @@ footer
 
 .info
 {
-    text-align: right; /*per questo attributo necessario un div*/   
-    background-color: var(--bool-primary); 
+    text-align: center; /*per questo attributo necessario un div*/ 
+    background-color: var(--bool-final); 
+    line-height: 2rem;
+    font-size: smaller;
+    color: var(--bool-white);
 }
 
 .source_link
 {
     text-decoration: none; /*toglie sottolineatura del link che appare di default*/
-    color: var(--bool-white);
+    color: var(--bool-white);   
 }
-
-/* #endregion footer*/
+/********************
+#endregion footer
+********************/
 
